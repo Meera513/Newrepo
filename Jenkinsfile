@@ -4,6 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Build Steps-Jenkis file"
+                echo "Build step-Test Jenkins"
             }
         }
         stage('Test') {
